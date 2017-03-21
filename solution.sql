@@ -1,5 +1,5 @@
 -- 1. Get all users from Chicago.
-SELECT * FROM syntax_practice WHERE city = 'chicago';
+SELECT * FROM syntax_practice WHERE city ILIKE 'chicago';
 
 -- 2. Get all users with usernames that contain the letter a.
 SELECT * FROM syntax_practice WHERE username ILIKE '%a%';
